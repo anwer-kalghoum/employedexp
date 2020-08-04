@@ -1,0 +1,28 @@
+
+.logo-left {
+  height: 20%;
+  width: 20%;
+}
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #657786;
+}
+.navBar-left li {
+  float: left;
+}
+
+.navBar-right li {
+  float: right;
+}
+
+li {
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

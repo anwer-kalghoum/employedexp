@@ -1,0 +1,31 @@
+{
+  "name": "react-exp-app",
+  "version": "0.1.0",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-router-dom": "4.3.0",
+    "react-scripts": "1.1.4",
+    "babel-runtime": "^6.26.0",
+    "es6-promise": "^4.2.4",
+    "history": "^4.7.2",
+    "kea": "^0.27.8",
+    "kea-localstorage": "^0.2.0",
+    "kea-saga": "^0.3.2",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.6.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
