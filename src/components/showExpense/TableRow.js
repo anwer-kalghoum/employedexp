@@ -71,7 +71,7 @@ class TableRow extends Component {
                 <td><input type="text" className="form-control" defaultValue={this.props.entry.name} ref="name" /></td>
                 <td><input type="text" className="form-control" defaultValue={this.props.entry.description} ref="description" /></td>
 
-                <td><input type="text" className="form-control" defaultValue={this.props.entry.amount} ref="amount" /></td>
+                <td><input type="number" className="form-control" defaultValue={this.props.entry.amount} ref="amount" /></td>
                 <td>
                     <button className="btn btn-primary mr-1" onClick={this.handleUpdate.bind(this)}>Update</button>
                     <button className="btn btn-danger" onClick={this.handleToggle.bind(this)}>Cancel</button>
