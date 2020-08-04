@@ -66,7 +66,7 @@ class Form extends Component {
                     </div>
 
                     <div className="form-group mr-1">
-                        <input type="text" className="form-control" onChange={this.handleChange.bind(this)} placeholder="Amount" name="amount" value={this.state.amount} />
+                        <input type="number" min="1" className="form-control" onChange={this.handleChange.bind(this)} placeholder="Amount" name="amount" value={this.state.amount} />
                     </div>
                     <button type="submit" className="btn btn-primary" disabled={!this.valid()}> Create Expense</button>
                 </form>
