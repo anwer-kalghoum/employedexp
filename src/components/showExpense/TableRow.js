@@ -67,7 +67,7 @@ class TableRow extends Component {
     RowEdit() {
         return (
             <tr>
-                <td><input type="text" className="form-control" defaultValue={this.props.entry.date} ref="date" /></td>
+                <td><input type="date" className="form-control" defaultValue={this.props.entry.date} ref="date" /></td>
                 <td><input type="text" className="form-control" defaultValue={this.props.entry.name} ref="name" /></td>
                 <td><input type="text" className="form-control" defaultValue={this.props.entry.description} ref="description" /></td>
 
